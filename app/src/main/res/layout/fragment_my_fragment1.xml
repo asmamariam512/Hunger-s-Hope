@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="12dp"
+android:paddingLeft="12dp"
+android:paddingRight="12dp"
+    android:background="@drawable/bac2"
+android:paddingTop="12dp"
+tools:context="com.example.windows.foodish.MyFragment1">
+
+<!-- TODO: Update blank fragment layout -->
+
+
+<TextView
+    android:text="Welcome Donor!"
+    android:layout_width="wrap_content"
+    android:fontFamily="monospace"
+
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/textView"
+
+    android:textStyle="bold"
+    android:textSize="30sp" />
+
+
+
+    <Button
+        android:text="SEE MY Donations"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:layout_centerVertical="true"
+       android:background="@drawable/bac2"
+        android:textColor="#ffff"
+        android:fontFamily="monospace"
+        android:id="@+id/button7" />
+
+    <TextView
+        android:text="Want to see all your donations?"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7"
+        android:textColor="#1F1F1D"
+        android:textSize="18dp"
+        android:layout_marginBottom="60dp"
+
+        android:id="@+id/textView14"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+
+</RelativeLayout>
+
+

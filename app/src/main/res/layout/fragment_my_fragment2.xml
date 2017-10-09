@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_find_hunger"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#DFC995"
+    tools:context="com.example.windows.foodish.MyFragment2">
+
+    <TextView
+        android:fontFamily="monospace"
+        android:id="@+id/find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="FIND A HUNGER"
+        android:textAlignment="center"
+        android:textColor="#14151A"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextarea"
+        style="@android:style/Widget.Holo.Light.EditText"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewppl"
+        android:layout_alignLeft="@+id/textViewFOR"
+        android:layout_alignRight="@+id/textViewppl"
+        android:layout_alignStart="@+id/textViewFOR"
+        android:layout_below="@+id/find"
+        android:layout_marginTop="20dp"
+        android:hint="Choose An Area"
+        android:inputType="text"
+        android:selectAllOnFocus="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewFOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextnumber"
+        android:layout_alignBottom="@+id/editTextnumber"
+        android:layout_alignLeft="@+id/find"
+        android:layout_alignStart="@+id/find"
+        android:text="FOR"
+        android:textAlignment="center"
+
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewppl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="People"
+        android:textAlignment="center"
+
+
+        android:textSize="24sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignBottom="@+id/editTextnumber"
+        android:layout_toRightOf="@+id/buttonfind"
+        android:layout_alignTop="@+id/textViewFOR"
+        android:layout_alignRight="@+id/find"
+        android:layout_alignEnd="@+id/find" />
+
+    <Button
+        android:layout_marginTop="55dp"
+        android:id="@+id/buttonfind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/find1"
+
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:elevation="24dp"
+        android:layout_below="@+id/editTextnumber"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:hint="No of People"
+        android:inputType="number"
+
+        android:textSize="18sp"
+        android:layout_below="@+id/editTextarea"
+        android:layout_toLeftOf="@+id/textViewppl"
+        android:layout_toStartOf="@+id/textViewppl" />
+
+</RelativeLayout>
+

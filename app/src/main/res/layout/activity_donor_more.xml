@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+   >
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+android:layout_gravity="center"
+            android:background="@drawable/edittextstyle"
+
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/editTextName"
+            android:inputType="text"
+
+            android:hint="Enter name"/>
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:id="@+id/editTextAddress"
+            android:inputType="number"
+
+
+            android:hint="Enter House No."/>
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:id="@+id/editTextRoad"
+            android:inputType="number"
+
+
+            android:hint="Enter Road No."/>
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:id="@+id/editTextPostal"
+            android:inputType="number"
+
+
+            android:hint="Enter Postal Code"/>
+
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editTextCity"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:hint="Enter Area"/>
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edittextstyle"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:id="@+id/editTextDustrict"
+            android:inputType="text"
+
+
+            android:hint="Enter District"/>
+
+
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editTextPhone"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+
+            android:hint="Enter phone"/>
+
+        <TextView
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:textSize="18dp"
+
+            android:layout_marginLeft="4dp"
+
+            android:text="Select type of Donor: "/>
+
+        <Spinner
+            android:textColor="#A9A19F"
+            android:background="#ffff"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:layout_width="294dp"
+            android:layout_height="60dp"
+            android:entries="@array/planets_array"
+            android:layout_marginTop="6dp"
+            android:id="@+id/spinner" />
+        <TextView
+            android:textColor="#6BDDFF"
+            android:textColorHint="#6BDDFF"
+            android:layout_gravity="center"
+            android:layout_marginTop="22dp"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="4dp"
+
+            android:text="Manager's / Owner's Information "/>
+
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editTextManName"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:hint="Enter Name"/>
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editTextManPhone"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:hint="Enter Mobile number"/>
+        <EditText
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+
+            android:background="@drawable/edittextstyle"
+            android:id="@+id/editTextId"
+            android:inputType="number"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:hint="Enter National Id Number"/>
+
+        <Button
+
+            android:id="@+id/buttonSignup2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+
+            android:textColor="#fff"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonstyleselector"
+
+            android:text="sign Up"
+            android:layout_weight="0.11" />
+    </LinearLayout>
+</ScrollView>

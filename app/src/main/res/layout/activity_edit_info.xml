@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    >
+    <LinearLayout
+
+        android:layout_marginTop="6dp"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/textViewReceiver"
+            android:id="@+id/editInfoName"
+
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+
+            android:hint="Name" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/editTextrName"
+
+            android:id="@+id/editInfoAddress"
+            android:hint="Address" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+
+
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:id="@+id/editInfoPeople"
+            android:hint="Number of People"
+            android:layout_below="@+id/rAddress"
+
+            android:inputType="number" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+
+
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:layout_below="@+id/rPeople"
+
+            android:id="@+id/editInfoPhone"
+            android:hint="Phone" />
+
+        <TextView
+
+            android:text="Select Your Location Type"
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+
+
+            android:layout_marginLeft="4dp"
+            android:id="@+id/textViewspinner"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Spinner
+            android:layout_marginTop="6dp"
+
+            android:textColor="#A9A19F"
+            android:background="#ffff"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:layout_width="294dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textViewspinner"
+
+            android:entries="@array/location_type"
+            android:id="@+id/spinner2" />
+        <TextView
+
+            android:text="Information Of Person In Charge"
+            android:textColor="#6BDDFF"
+            android:textColorHint="#6BDDFF"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_width="300dp"
+            android:layout_height="39dp"
+
+
+            android:layout_marginLeft="4dp"
+            android:id="@+id/textViewPersonal"
+            android:textSize="18sp"
+            android:textStyle="normal"/>
+        <EditText
+            android:layout_marginTop="10dp"
+
+
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:layout_below="@+id/rPeople"
+
+            android:id="@+id/editText9"
+            android:hint="Phone"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+
+
+            android:textColor="#A9A19F"
+            android:textColorHint="#A9A19F"
+            android:layout_gravity="center"
+            android:background="@drawable/edittextstyle"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:layout_below="@+id/rPeople"
+
+            android:id="@+id/editText10"
+            android:hint="National Id Number"/>
+
+        <Button
+            android:text="Edit Your Info"
+            android:layout_width="292dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#fff"
+            android:layout_height="60dp"
+            android:id="@+id/button2"
+            android:textSize="18sp"
+            android:background="#A92109" />
+
+
+    </LinearLayout>
+</ScrollView>

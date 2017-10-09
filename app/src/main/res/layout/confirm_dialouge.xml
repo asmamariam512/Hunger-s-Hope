@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Do you Want to Confirm Donation?? "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:text="Double Click to Donate!!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:id="@+id/textView16" />
+
+
+    <Button
+        android:text="Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
+
+
+
+
+</LinearLayout>
